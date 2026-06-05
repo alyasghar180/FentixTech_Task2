@@ -126,10 +126,10 @@ All layouts adapt fluidly with proper spacing, typography scaling, and image opt
 2. Double-click `index.html` to open in your default browser
 3. Or right-click → Open with → Choose your browser
 ```
-## Contact
+### Contact
 
 For questions or support regarding this website, please contact at: contact.aliasghar.dev@gmail.com
-## License
+### License
 
 This is a professional landing page implementation created as a development project.
 
