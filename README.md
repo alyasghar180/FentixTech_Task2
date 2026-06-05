@@ -126,51 +126,10 @@ All layouts adapt fluidly with proper spacing, typography scaling, and image opt
 2. Double-click `index.html` to open in your default browser
 3. Or right-click → Open with → Choose your browser
 ```
+## Contact
 
-## CSS Structure
-
-The stylesheet is organized into logical sections:
-
-1. **Global Styles & Reset** - Base styles and normalization
-2. **Typography** - Font sizes, weights, and colors
-3. **Hero Section** - Landing area styling
-4. **Section Styles** - Channels, Messages, Future sections
-5. **Footer Section** - Footer layout and styling
-6. **Responsive Design** - Media queries for all breakpoints
-7. **Print Styles** - Print-friendly styling
-
-## Performance Optimizations
-
-- Minimal CSS for faster load times
-- Optimized image assets
-- Semantic HTML for better SEO
-- CSS Grid and Flexbox for efficient layouts
-- No render-blocking resources
-
-## Accessibility Features
-
-- Semantic HTML structure (nav, section, footer)
-- Alt text for all images
-- Proper heading hierarchy
-- Color contrast ratios meet WCAG standards
-- Keyboard navigation support
-
-## Future Enhancements
-
-Potential improvements:
-- Add smooth scroll animations
-- Implement lazy loading for images
-- Add hamburger menu for mobile
-- Sticky navigation header
-- Form validation for contact page
-- Dark mode toggle
-
+For questions or support regarding this website, please contact at: contact.aliasghar.dev@gmail.com
 ## License
 
 This is a professional landing page implementation created as a development project.
 
-## Contact
-
-For questions or support regarding this website, please contact at: contact.aliasghar.dev@gmail.com
-
----
