@@ -1,0 +1,424 @@
+/* ===========================
+   Global Styles & Reset
+   =========================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ===========================
+   Typography
+   =========================== */
+
+h1, h2, h3 {
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #222;
+    margin-bottom: 12px;
+}
+
+.section-title {
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #222;
+    margin-bottom: 16px;
+}
+
+.hero-subtitle {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 32px;
+}
+
+.section-description {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #888;
+    max-width: 500px;
+}
+
+.footer-text {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* ===========================
+   Hero Section
+   =========================== */
+
+.hero {
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #f5f5f5 0%, #fafafa 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-logo {
+    width: 200px;
+    margin-bottom: 24px;
+}
+
+.hero-logo img {
+    width: 100%;
+    height: auto;
+}
+
+.store-buttons {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.store-btn {
+    display: inline-block;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.store-btn:hover {
+    transform: translateY(-4px);
+    opacity: 0.9;
+}
+
+.store-btn img {
+    height: 48px;
+    width: auto;
+    display: block;
+}
+
+.hero-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-mockup {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* ===========================
+   Section Styles (Channels, Messages, Future)
+   =========================== */
+
+.section {
+    padding: 100px 20px;
+    background-color: #fff;
+}
+
+.section:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.section-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+}
+
+/* Alternate layout for Messages section */
+.messages .section-container {
+    grid-template-columns: 1fr 1fr;
+}
+
+.messages .section-content {
+    order: -1;
+}
+
+.section-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-mockup {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.section-content {
+    padding: 20px 0;
+}
+
+/* ===========================
+   Footer Section
+   =========================== */
+
+.footer {
+    background-color: #fff;
+    padding: 80px 20px;
+    text-align: center;
+    border-top: 1px solid #eee;
+}
+
+.footer-container {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.footer-buttons {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-android img,
+.footer-ios img {
+    height: 44px;
+    width: auto;
+}
+
+.contact-link {
+    color: #00a8e8;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+    color: #0088b8;
+}
+
+.footer-logo {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+.footer-logo img {
+    height: 40px;
+    width: auto;
+    margin: 0 auto;
+}
+
+/* ===========================
+   Responsive Design
+   =========================== */
+
+/* Tablets (768px to 1024px) */
+@media (max-width: 1024px) {
+    .hero-container,
+    .section-container {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+
+    .messages .section-content {
+        order: 0;
+    }
+
+    .hero-title {
+        font-size: 40px;
+    }
+
+    .section-title {
+        font-size: 36px;
+    }
+
+    .hero,
+    .section {
+        padding: 60px 20px;
+    }
+
+    .hero-mockup {
+        max-height: 400px;
+    }
+
+    .section-mockup {
+        max-height: 350px;
+    }
+}
+
+/* Mobile (up to 767px) */
+@media (max-width: 767px) {
+    .hero {
+        padding: 40px 16px;
+        min-height: auto;
+    }
+
+    .hero-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .hero-title {
+        font-size: 32px;
+        letter-spacing: 0;
+    }
+
+    .hero-subtitle {
+        font-size: 14px;
+        margin-bottom: 24px;
+    }
+
+    .store-buttons {
+        gap: 12px;
+    }
+
+    .store-btn img {
+        height: 42px;
+    }
+
+    .section {
+        padding: 50px 16px;
+    }
+
+    .section-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .section-title {
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+
+    .section-description {
+        font-size: 14px;
+    }
+
+    .hero-logo {
+        width: 150px;
+        margin-bottom: 16px;
+    }
+
+    .footer {
+        padding: 60px 16px;
+    }
+
+    .footer-text {
+        font-size: 14px;
+    }
+
+    .footer-buttons {
+        gap: 12px;
+    }
+
+    .footer-android img,
+    .footer-ios img {
+        height: 38px;
+    }
+
+    .footer-logo {
+        margin-top: 16px;
+        padding-top: 16px;
+    }
+
+    .footer-logo img {
+        height: 32px;
+    }
+}
+
+/* Small Mobile (up to 480px) */
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 26px;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .hero-subtitle,
+    .section-description,
+    .footer-text {
+        font-size: 13px;
+    }
+
+    .store-buttons,
+    .footer-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .store-btn img,
+    .footer-android img,
+    .footer-ios img {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+    }
+
+    .hero,
+    .section {
+        padding: 30px 12px;
+    }
+
+    .footer {
+        padding: 40px 12px;
+    }
+
+    .section-container,
+    .hero-container {
+        gap: 30px;
+    }
+}
+
+/* ===========================
+   Print Styles
+   =========================== */
+
+@media print {
+    .store-buttons,
+    .footer-buttons {
+        display: none;
+    }
+}
