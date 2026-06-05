@@ -121,40 +121,10 @@ All layouts adapt fluidly with proper spacing, typography scaling, and image opt
 
 ## How to Run Locally
 
-### Method 1: Direct File Opening
+### Method : Direct File Opening
 1. Navigate to the project directory
 2. Double-click `index.html` to open in your default browser
 3. Or right-click → Open with → Choose your browser
-
-### Method 2: Local Server (Recommended)
-
-**Using Python 3:**
-```bash
-cd Fentix_Task2
-python -m http.server 8000
-# Open http://localhost:8000 in your browser
-```
-
-**Using Python 2:**
-```bash
-cd Fentix_Task2
-python -m SimpleHTTPServer 8000
-# Open http://localhost:8000 in your browser
-```
-
-**Using Node.js (with http-server):**
-```bash
-npm install -g http-server
-cd Fentix_Task2
-http-server
-# Open http://localhost:8080 in your browser
-```
-
-**Using PHP:**
-```bash
-cd Fentix_Task2
-php -S localhost:8000
-# Open http://localhost:8000 in your browser
 ```
 
 ## CSS Structure
@@ -201,9 +171,6 @@ This is a professional landing page implementation created as a development proj
 
 ## Contact
 
-For questions or support regarding this website, please contact us at: contact@catchhub.com
+For questions or support regarding this website, please contact at: contact.aliasghar.dev@gmail.com
 
 ---
-
-**Last Updated**: 2024
-**Version**: 1.0
