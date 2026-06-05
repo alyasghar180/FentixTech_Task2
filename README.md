@@ -17,23 +17,23 @@ Catchhub is a social platform that combines video streaming, messaging, and chan
 ```
 Fentix_Task2/
 │
-├── index.html              # Main HTML file with semantic structure
+├── index.html                Main HTML file with semantic structure
 ├── css/
-│   └── style.css          # Complete CSS styling and responsive design
+│   └── style.css            Complete CSS styling and responsive design
 │
 ├── assets/
-│   ├── logo.png           # Catchhub main logo
-│   ├── app_store.png      # Google Play Store button
-│   ├── play_store.png     # Apple App Store button
-│   ├── top_screens.png    # Hero section app mockups
-│   ├── for_screens.png    # Channels feature screenshots
-│   ├── sec_screens.png    # Messages feature screenshots
-│   ├── thhh_screens.png   # Future features screenshots
-│   ├── vectors.png        # Footer logo/branding
-│   ├── favicon.jpg        # Browser tab icon
-│   └── design.jpg         # Original design reference
+│   ├── logo.png             Catchhub main logo
+│   ├── app_store.png        Google Play Store button
+│   ├── play_store.png       Apple App Store button
+│   ├── top_screens.png      Hero section app mockups
+│   ├── for_screens.png      Channels feature screenshots
+│   ├── sec_screens.png      Messages feature screenshots
+│   ├── thhh_screens.png     Future features screenshots
+│   ├── vectors.png          Footer logo/branding
+│   ├── favicon.jpg          Browser tab icon
+│   └── design.jpg           Original design reference
 │
-└── README.md             # This file
+└── README.md               This file
 ```
 
 ## Technology Stack
